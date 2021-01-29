@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+    font-size: 5rem;
+    border: 0.25rem solid#dc143c;
+}
+
+
+
+.set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 9rem 1rem 9rem 1rem;
+
+}
+
+.drum{
+    outline: none;
+    border: 0.25rem solid#404869;
+    font-size: 45px;
+    font-weight: 900;
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    line-height: 1.6;
+    border-radius: 1rem;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
